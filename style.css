@@ -1,12 +1,19 @@
 *{
     font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./Images/gridBg.jpeg") center/cover no-repeat;
+    height: 100vh;
 }
 
 .main-page{
     width: 100%;
     max-width: 600px;
-    margin: auto;
+    margin: 2rem auto;
     padding: 1rem;
+    background-color: rgb(255, 255, 255, 0.8);
 }
 
 .main-page li{
