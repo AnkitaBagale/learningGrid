@@ -1,0 +1,94 @@
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 2.2rem;
+}
+h3{
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+}
+
+h4{
+    font-size: 0.6rem;
+    line-height: 1rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+p{
+    font-size: 0.5rem;
+    font-weight: 600;
+    line-height: 0.8rem;
+}
+p:not(.strong){
+    margin-bottom: 0.4rem;
+}
+
+/* Left image section*/
+.grid-item1{
+    grid-area: 1/1/17/19;
+    background-image: url(./Images/smallImage.jpg);
+    /* background-position: center; */
+    transform: scaleX(-1);
+    background-size: 100% 100%;
+}
+/* Right section background */
+.grid-item3{
+    grid-area: 1/19/17/36;
+    background-color: #dedee0;
+}
+/* image in middle */
+.grid-item2{
+    grid-area:3/14/14/24;
+    background-image: url(./Images/largeImage.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    z-index: 10;
+    border: 0.5rem solid #dedee0;
+
+}
+/* Text section */
+.grid-item4{
+    grid-area:3/24/16/35;
+    background-color: transparent;
+    z-index: 10;
+    padding: 0.5rem 0.5rem;
+}
+/* Text section background  */
+.grid-item5{
+    grid-area:2/24/16/35;
+    background-color: #f3f1f1;
+}
+/* page number */
+.grid-item6{
+    grid-area:16/24/17/26;
+}
+/* magazine name */
+.grid-item7{
+    grid-area:1/24/17/36;
+    z-index: 12;
+}
+.section{
+    background-color: #a2ddcb;
+    padding: 3rem;
+    opacity: 0.9;
+}
+.container{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(35, 21px);
+    grid-auto-rows: 35px;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    width: fit-content;
+    margin: auto;
+}
+
+
+
+
+

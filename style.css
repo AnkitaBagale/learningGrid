@@ -1,0 +1,23 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main-page{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.main-page li{
+    padding-bottom: 1rem;
+}
+
+
+.main-page a{
+    font-size: 1.2rem;
+}
+.main-page a:hover{
+    color: black;
+}
+
